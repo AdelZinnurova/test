@@ -1,14 +1,67 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .container {
-    height: 100%;
-    width: 100%;
-    max-width: 1140px;
-    margin-left: auto;
-    margin-right: auto;
-    border: 1px solid red;
+  height: 100%;
+  width: 100%;
+  max-width: 1296px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid red;
 }
+
+body {
+  font-family: "Noto", sans-serif;
+}
+
+
+/* section 1 */
+
+.services_title {
+  font-weight: 700;
+  font-size: 24px;
+  color: #868585;
+  margin-bottom: 60px;
+}
+
+.services_content {
+  display: flex;
+  gap: 96px;
+
+}
+
+.services_list {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+}
+
+.service_title {
+  font-weight: 700;
+  font-size: 18px;
+  color: #303030;
+  margin-bottom: 15px;
+}
+
+.service_desc {
+  font-weight: 400;
+  font-size: 14px;
+  color: #303030;
+}
+
+.services_image {
+  width: 648px;
+  height: 670px;
+}
+
+/* section 2 */
+
