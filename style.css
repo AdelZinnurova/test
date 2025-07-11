@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
   height: 100%;
   width: 100%;
@@ -13,10 +17,18 @@
   border: 1px solid red;
 }
 
-body {
-  font-family: "Noto", sans-serif;
-}
+section {
+    margin-bottom: 344px;
+  }
+  
+  section:last-of-type {
+    margin-bottom: 0px;
+  }
+  
 
+body {
+  font-family: "Noto Sans", sans-serif;
+}
 
 /* section 1 */
 
@@ -24,13 +36,13 @@ body {
   font-weight: 700;
   font-size: 24px;
   color: #868585;
+  text-transform: uppercase;
   margin-bottom: 60px;
 }
 
 .services_content {
   display: flex;
   gap: 96px;
-
 }
 
 .services_list {
@@ -65,3 +77,129 @@ body {
 
 /* section 2 */
 
+.coaches_title_and_btn {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 75px;
+}
+
+.coaches_title {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 140%;
+  color: #333;
+}
+
+.coaches__nav {
+  display: flex;
+  gap: 22px;
+  width: 105px;
+  height: 45px;
+}
+
+.coaches_nav_btn {
+  width: 45px;
+  height: 45px;
+  background-color: #8d86c9;
+  border: none;
+}
+
+.coaches_list {
+  display: flex;
+  gap: 24px;
+}
+
+.coach {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 196px;
+}
+
+.coach_image_wrap {
+  border: 1px solid #f7ece1;
+  padding: 0 10px;
+  height: 241px;
+}
+
+.coach_image {
+  width: 166px;
+  height: 240px;
+}
+
+.coach_name {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 140%;
+  text-align: center;
+  color: #333;
+  margin: 25px 0 15px 0;
+}
+
+.coach_desc {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  color: #333;
+  width: 196px;
+}
+
+/* section 3 */
+
+.news_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto;
+  gap: 24px;
+}
+
+.news_card {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 40px;
+  border: 1px solid #f7ece1;
+  width: 416px;
+  height: 512px;
+}
+
+.new_card_img {
+  width: 336px;
+  height: 240px;
+}
+
+.new_card_date {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #333;
+  opacity: 0.5;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.new_card_text {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 140%;
+  color: #333;
+}
+
+.new_card_link {
+  padding: 10px 20px;
+  width: 137px;
+  height: 45px;
+  background-color: #8d86c9;
+  margin-top: auto;
+
+  font-family: "Gilroy", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  color: #fff;
+}

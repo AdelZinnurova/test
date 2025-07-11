@@ -1,0 +1,24 @@
+/* Обычный (400) */
+@font-face {
+     font-family: 'Gilroy';
+     src: url('./assets/fonts/gilroy-regular.ttf') format('truetype');
+     font-weight: 400;
+     font-style: normal;
+   }
+   
+   /* Полужирный (600) — semibold */
+   @font-face {
+     font-family: 'Gilroy';
+     src: url('./assets/fonts/gilroy-semibold.ttf') format('truetype');
+     font-weight: 600;
+     font-style: normal;
+   }
+   
+   /* Жирный (700) */
+   @font-face {
+     font-family: 'Gilroy';
+     src: url('./assets/fonts/gilroy-bold.ttf') format('truetype');
+     font-weight: 700;
+     font-style: normal;
+   }
+   
